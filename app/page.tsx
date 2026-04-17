@@ -5,6 +5,7 @@ import NewsletterForm from '../components/NewsletterForm'
 export const metadata: Metadata = {
   title: "Best Kitchen Products Ranked for 2025 — KitchenRankd",
   description: "Honest rankings of cookware, kitchen appliances, knives and gadgets tested in real kitchens.",
+  alternates: { canonical: "https://www.kitchenrankd.com" },
 };
 
 const STARS = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
